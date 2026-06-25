@@ -3,7 +3,7 @@
   "Name": "PaddleOCR",
   "Description": "PaddleOCR (V6) plugin for stranslate",
   "Author": "zggsong",
-  "Version": "1.0.6",
+  "Version": "1.0.7",
   "Website": "https://github.com/STranslate/STranslate.Plugin.Ocr.Paddle",
   "ExecuteFileName": "STranslate.Plugin.Ocr.Paddle.dll",
   "IconPath": "icon.png"

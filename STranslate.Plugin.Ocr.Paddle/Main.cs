@@ -28,6 +28,8 @@ public class Main : IOcrPlugin
         LangEnum.Japanese,
     ];
 
+    public bool SupportBoxPoints() => true;
+
     public Control GetSettingUI()
     {
         _viewModel ??= new SettingsViewModel(Context, Settings);

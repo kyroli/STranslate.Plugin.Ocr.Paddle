@@ -60,7 +60,7 @@
         <PackageReference Include="Sdcb.OpenVINO" Version="0.8.1" />
         <PackageReference Include="Sdcb.OpenVINO.PaddleOCR.Models.Online" Version="0.8.1" />
         <PackageReference Include="Sdcb.OpenVINO.runtime.win-x64" Version="2025.2.0.1" />
-        <PackageReference Include="STranslate.Plugin" Version="1.0.4" />
+        <PackageReference Include="STranslate.Plugin" Version="1.0.12" />
     </ItemGroup>
 
     <Target Name="CleanExtraDlls" AfterTargets="Build">
