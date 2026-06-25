@@ -35,15 +35,7 @@
             </ui:SettingsExpander.Items>
         </ui:SettingsExpander>
 
-        <ui:SettingsCard Header="{DynamicResource STranslate_Plugin_Ocr_Paddle_ModelSize}" Description="{DynamicResource STranslate_Plugin_Ocr_Paddle_ModelSize_Description}">
-            <ui:SettingsCard.HeaderIcon>
-                <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.Resize_20_Regular}" />
-            </ui:SettingsCard.HeaderIcon>
-            <ComboBox
-                MinWidth="120"
-                ItemsSource="{Binding ModelSizes}"
-                SelectedItem="{Binding SelectedModelSize}" />
-        </ui:SettingsCard>
+
 
         <ui:SettingsCard Header="{DynamicResource STranslate_Plugin_Ocr_Paddle_Models}">
             <ui:SettingsCard.HeaderIcon>
@@ -58,7 +50,7 @@
             <ui:SettingsCard.HeaderIcon>
                 <ui:FontIcon Icon="{x:Static ui:FluentSystemIcons.Info_20_Regular}" />
             </ui:SettingsCard.HeaderIcon>
-            <!--  通过Grid容器与内部ColumnDefinition=Auto协商宽度避免TextBlock过宽  -->
+            <!-- 使用 Grid 容器与文本自动折行，避免内容因排版限制显示不全 -->
             <Grid>
                 <TextBlock Text="{DynamicResource STranslate_Plugin_Ocr_Paddle_Info_Text}" TextWrapping="Wrap" />
             </Grid>

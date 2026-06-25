@@ -6,12 +6,10 @@
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelsDirectory">模型位置</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelsDirectory_Description">OCR模型下载存储位置</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelsDirectory_Button">选择</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelSize">模型尺寸</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelSize_Description">选择模型大小，越大精度越高但速度越慢</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Models">在线模型</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Models_Tip">首次执行时会自动下载依赖模型，请耐心等待。</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Info">介绍</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Info_Text">该项目基于 OpenVINO Runtime 的 PaddleOCR V6，支持 Tiny/Small/Medium 三种模型尺寸</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Info_Text">该项目基于 OpenVINO Runtime 的 PaddleOCR V6，支持离线多语言 OCR 识别。</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Link_Source">插件项目源</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Link_Other">上游项目源</sys:String>
 

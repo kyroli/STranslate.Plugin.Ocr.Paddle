@@ -6,12 +6,10 @@
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelsDirectory">Model Directory</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelsDirectory_Description">The storage location for downloaded OCR models.</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelsDirectory_Button">Select</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelSize">Model Size</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_ModelSize_Description">Select model size, larger models have higher accuracy but slower speed</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Models">Online Models</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Models_Tip">Models will be automatically downloaded during first execution. Please wait patiently.</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Info">Introduction</sys:String>
-    <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Info_Text">This project is based on PaddleOCR V6 with OpenVINO Runtime, supporting Tiny/Small/Medium model sizes</sys:String>
+    <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Info_Text">This project is based on PaddleOCR V6 with OpenVINO Runtime, supporting offline multilingual OCR.</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Link_Source">Plugin Project Source</sys:String>
     <sys:String x:Key="STranslate_Plugin_Ocr_Paddle_Link_Other">Upstream Project Source</sys:String>
 

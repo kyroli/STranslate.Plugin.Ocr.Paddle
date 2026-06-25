@@ -1,10 +1,10 @@
-﻿{
-  "PluginID": "c5914774d4854623ad11912676c7007b",
-  "Name": "PaddleOCR",
-  "Description": "PaddleOCR (V6) plugin for stranslate",
-  "Author": "zggsong",
-  "Version": "1.0.7",
-  "Website": "https://github.com/STranslate/STranslate.Plugin.Ocr.Paddle",
+{
+  "PluginID": "c5914774d4854623ad11912676c7007c",
+  "Name": "PaddleOCR (Lite)",
+  "Description": "PaddleOCR (V6) simplified & customized plugin for STranslate",
+  "Author": "kyroli (zggsong)",
+  "Version": "1.0.7-lite",
+  "Website": "https://github.com/kyroli/STranslate.Plugin.Ocr.Paddle",
   "ExecuteFileName": "STranslate.Plugin.Ocr.Paddle.dll",
   "IconPath": "icon.png"
 }

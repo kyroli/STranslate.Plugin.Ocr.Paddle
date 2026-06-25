@@ -1,4 +1,4 @@
 {
-  "Name": "PaddleOCR",
-  "Description": "用于STranslate的飞浆（V6）文本识别插件"
+  "Name": "PaddleOCR (精简定制版)",
+  "Description": "用于 STranslate 的 PaddleOCR (V6) 离线精简定制识别插件"
 }

@@ -1,28 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
-    <!-- ========================================
-         PaddleOCRSharp 模型文件自动复制配置
-         ======================================== -->
-    <ItemGroup>
-        <!-- 核心依赖 -->
-        <None Include="$(MSBuildThisFileDirectory)\Core\References\*.*">
-            <Link>%(Filename)%(Extension)</Link>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <Visible>false</Visible>
-        </None>
-
-        <!-- 推理模型 (递归包含所有子目录与文件) -->
-        <None Include="$(MSBuildThisFileDirectory)\Core\References\inference\**\*.*">
-            <Link>inference\%(RecursiveDir)%(Filename)%(Extension)</Link>
-            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-            <Visible>false</Visible>
-        </None>
-    </ItemGroup>
-
-    <!-- ========================================
-         平台检查: 禁止 x86 平台构建
-         ======================================== -->
+    <!-- =======================================================================
+         平台安全校验：
+         OpenVINO 与 PaddleOCR 本地推理仅支持 x64 或 arm64 架构，不支持 x86 平台 (32位)。
+         本配置用于阻止在 x86 目标平台下进行编译，防止引发运行时非托管加载崩溃。
+         ======================================================================= -->
     <PropertyGroup>
         <BuildX86 Condition="
             '$(PlatformTarget)'=='x86' OR
@@ -31,7 +14,7 @@
         ">True</BuildX86>
 
         <ErrorMessage Condition="'$(BuildX86)'=='True'">
-            PaddleOCRSharp 不支持 x86 平台 (32位)，请修改目标平台为 x64。
+            OpenVINO/PaddleOCR 不支持 x86 平台 (32位)，请修改目标平台为 x64。
         </ErrorMessage>
     </PropertyGroup>
 

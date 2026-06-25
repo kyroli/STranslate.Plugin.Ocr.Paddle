@@ -1,4 +1,4 @@
 {
-  "Name": "PaddleOCR",
-  "Description": "STranslate용 PaddleOCR (V6) 텍스트 인식 플러그인"
+  "Name": "PaddleOCR (Lite)",
+  "Description": "STranslate용 PaddleOCR (V6) 텍스트 인식 플러그인 (Lite)"
 }

@@ -1,4 +1,4 @@
 {
-  "Name": "PaddleOCR",
-  "Description": "PaddleOCR (V6) plugin for stranslate"
+  "Name": "PaddleOCR (Lite)",
+  "Description": "PaddleOCR (V6) simplified & customized plugin for STranslate"
 }
